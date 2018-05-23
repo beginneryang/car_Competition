@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+.gw{width: 960px;margin: 0 auto;}
+.color1{color: #959595;}/* 浅灰 */
+.color2{color: #000;}
+.color3{color: #fff;}
+.color4{color: red;}
+.font_s1{font-size: 12px;}
+.font_s0{font-size: 0;}
+.mb10{margin-bottom: 5px;}
+p .span{display: inline-block; width: 8px;height: 8px;background-color: #fff;border:1px solid #ccc;margin:0 3px;cursor: pointer;}
+p .span:hover,p .p_sp_act{background-color: red;}
+a:hover{color: skyblue;}
+
+.head{width: 100%;height: 21px;line-height: 21px;background-color: #F0F0F0;border-bottom: 1px solid #C1C1C2;}
+.head ul li{margin: 0 4px;}
+.head ul li:nth-child(5){margin: 0 6px;}
+.head ul li:nth-child(7){margin: 0 2px;}
+.head ul li:nth-child(8){margin: 0 6px 0 4px;}
+/* .head ul li:hover a{color: #000;} */
+
+.daohang{height: 62px;}
+.nav_top{padding-top: 14px;height: 18px;}
+.nav_top .font_w{font-weight: bold;}
+.nav_top a,.nav_top span{ margin: 0 3px;}
+.nav_top .bor_l{border-left: 1px dashed #EBEBEB;padding-left: 6px;}
+/* .nav_top a:hover{color: pink;} */
+
+.nav_bt{height: 12px;}
+.nav_bt a{margin:0 4px;}
+.nav_bt .bor_r{border-right: 1px solid #959595;padding-right: 6px;}
+/* .nav_bt a:hover{color: skyblue;} */
+
+.search{height: 40px;line-height: 40px;background: url('../images/car_ss.png') center center;box-sizing: border-box;}
+.search span{background: url('../images/car_search_jt.png') right center no-repeat;padding-right:10px;}
+.search input,.search select{height: 21px;padding-left: 3px;background-color: #fff;margin:0 6px;}
+.search input{border:1px solid #ccc;}
+.search select{border: 1px solid skyblue;}
+.search .select_w1{width: 94px;}
+.search .select_w2{width: 122px;}
+.search button{width: 44px;height: 22px;background-image: linear-gradient(to bottom,#F2B5AB,#EB2802);border:1px solid
+	#FF6400;cursor: pointer;}
+.search em{width: 3px;height: 24px; margin: 8px 15px 0;background-color: #fff;box-shadow:inset 2px 0px 2px #000;}
+.search_fast{padding-left: 10px;}
+.search_fast,.search_brand,.search_model{height: 40px;}
+.search_model a{margin: 0 5px;height: 12px;line-height: 12px; border-left: 1px solid #999;padding-left: 8px;}
+.search_model .a_borL{border-left:0;}
+
+.ban_1{height: 232px; overflow: hidden;}
+.ban_1 ul{width: 8640px; height: 192px;position: relative;top: 0;left: -960px;}
+.ban_1 ul li img{width: 960px; height: 192px;}
+.ban_1_bt{height: 40px;line-height: 40px;padding:0 10px;background: url('../images/car_ban_bg.png') center center no-repeat;}
+.ban_1_bt h4{font-weight: normal;font-size: 14px;background: url('../images/car_hot.png') left center no-repeat;padding-left: 28px;}
+
+.ban_2{height: 440px;overflow: hidden;position: relative;}
+.ban_2_lis{width: 660px;margin: 0 auto;}
+.ban_2_lis ul{position: relative;top: 0;}
+.ban_2_lis ul li,.ban_2_lis ul li img{width: 660px;height: 440px;margin: 0 1px;}
+.ban_2  p{width: 150px;height: 440px;line-height: 420px;position: absolute;top: 0;text-align: center; font-size: 60px;font-weight: bold;color: #ccc;background-color: rgba(0,0,0,.5);}
+.ban_2  p span{cursor: pointer;}
+.ban_2  p span:hover{color: #fff;}
+.ban_2  .pert{left: 0;}
+.ban_2  .next{right: 0;}
+
+.ban_3{position: relative; height: 237px;background: url('../images/car_ban3_bg.png') center center;overflow: hidden;padding:0 10px;box-sizing: border-box;}
+.ban_3 h5{font-size: 14px; height: 44px;line-height: 44px;}
+.ban_3 ul{width: 3840px;position: absolute;top: 44px;left: -960px;padding: 0 15px;}
+.ban_3 ul li{width: 960px;box-sizing: border-box;}
+.ban_3 ul li img{margin-right: 8px;}
+.ban_3 p{position: absolute;top:10px;}
+.ban_3 .p1{right:95px;margin-top: 5px;}
+.ban_3 .p2{right:10px;}
+.ban_3 p a{margin: 0 3px;}
+
+.con_top{height: 40px;line-height: 40px; padding-left: 65px;box-sizing: border-box;}
+.con_bt{height: 177px;padding: 10px 10px;box-sizing: border-box;}
+.con_bg{background-color: #F4F3F3;}
+.con_bg1{background-color: #F7F7F7;}
+.con_bor{border:1px solid #C6C6C6;}
+.con_bor_b{border-bottom:1px solid #C6C6C6;}
+.con_bor_b2{border-bottom:1px solid #F4F3F3;}
+.con_bor_r{border-right:1px solid #C6C6C6;}
+.con_bor_l{border-left:1px solid #C6C6C6;}
+.con_mr{margin-right: 10px;}
+
+.con_top h2{font-size: 18px;color: #000;}
+.con_top p em{font-size: 16px; font-weight: bold;}
+
+.con_bt_1{width: 182px;}
+.con_bt_1 img{margin-bottom: 10px;}
+.con_bt_1 p span{margin: 0 4px;}
+
+.con_bt_2{width: 380px;}
+.con_bt_2 ol>li{height: 30px;}
+.con_bt_2>ol>li>span{float:left;text-align: center;height: 30px;line-height: 30px;}
+.con_bt_2 .height{height: 29px;}
+.con_bt_2 .w1{width: 38px;}
+.con_bt_2 .w2{width: 41px;}
+.con_bt_2 .w2_2{width: 44px;}
+.con_bt_2 .w3{width: 58px;}
+.con_bt_2 .w4{width: 64px;}
+.con_bt_2 .w5{width: 66px;}
+.con_bt_2 .w6{width: 86px;}
+.con_bt_2 .w7{width: 103px;}
+
+.con_bt_3{width: 335px;}
+.con_bt_3 .mb15{margin-bottom: 10px;}
+.con_bt_3 ul{width: 275px;margin-top: -5px;}
+.con_bt_3 ul li{height: 26px;line-height: 26px;margin-right: 10px;}
+.con_bt_3 ul li:nth-child(6n){margin-right: 0;}
+
+.con1{height: 217px;box-sizing: border-box;}
+.con1 .con_top{background: url('../images/car_con_top1.png') left center no-repeat;}
+.con2 .con_top{background: url('../images/car_con_top2.png') left center no-repeat;}
+.con3 .con_top{background: url('../images/car_con_top3.png') left center no-repeat;}
+
+.sstj_top{height: 40px;line-height: 40px;border-top:3px solid #434343; }
+.sstj_top img{width: 175px;height: 40px;}
+.sstj_top p{width: 70px;text-align: center;}
+
+.sstj_bt1{padding: 10px 20px 0;box-sizing: border-box;}
+.sstj_bt1 ul{margin: 0 auto;}
+.sstj_bt1 ul li{margin-right:26px;margin-bottom: 15px;}
+.sstj_bt1 ul li:nth-child(5n){margin-right: 0;}
+
+.sstj_bt2{padding: 10px 20px;}
+.sstj_bt2 ol li{text-align: center;margin-right: 28px;}
+.sstj_bt2 ol li:nth-child(5){margin-right: 0;}
+.sstj_bt2 ol li img{display: block;}
+
+.bjwz{height: 197px; background: url('../images/car_bjwz_bg.png') no-repeat;padding: 0 10px;box-sizing: border-box;}
+.bjwz h5{height: 46px;line-height: 46px;font-size: 14px;}
+.bjwz_bt ul li:nth-child(2n){width: 240px;}
+.bjwz_bt ul li h6{text-decoration: underline;}
+.bjwz_bt ul li p{font-size: 10px;line-height: 22px;}
+.bjwz_bt ul li p span{cursor: pointer;}
+
+.foo_top{height: 40px;line-height: 40px;background-color: #42454A;text-align: center;}
+.foo_top span{margin: 0 3px;}
+.foo_bt{text-align: center;}
+.foo_bt img{margin: 0 5px;}
